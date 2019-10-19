@@ -1,0 +1,1 @@
+<a href="{{ Storage::url($pdf_file) }}" target="_blank">تحميل</a>

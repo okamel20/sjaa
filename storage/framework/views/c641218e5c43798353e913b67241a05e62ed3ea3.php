@@ -1,0 +1,1 @@
+<a href="<?php echo e(Storage::url($pdf_file)); ?>" target="_blank">تحميل</a>

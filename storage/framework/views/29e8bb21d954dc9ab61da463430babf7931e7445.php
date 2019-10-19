@@ -1,0 +1,1 @@
+<?php echo e(\App\Admin::where('group_id',$id)->count()); ?>

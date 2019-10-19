@@ -1,0 +1,1 @@
+{{ \App\Admin::where('group_id',$id)->count() }}

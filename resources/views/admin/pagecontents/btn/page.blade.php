@@ -1,0 +1,1 @@
+{{ \App\Page::find($page_id)['title_'.lang()] }}

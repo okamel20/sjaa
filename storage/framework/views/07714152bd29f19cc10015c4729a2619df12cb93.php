@@ -1,0 +1,1 @@
+<img src="<?php echo e(Storage::url($img)); ?>" height="50px" width="100px">

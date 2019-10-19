@@ -1,0 +1,222 @@
+﻿/* Large devices (desktops, < 1200px) */
+@media (max-width: 1199.98px) {
+	.siteNav .navItem a {
+		font-size: 0;
+	}
+	.newsHolder .leftBlock .postItem .postIMG {
+		padding-top: 155.7%;
+	}
+	.newsHolder .postItem .postText {
+		padding: 15px;
+	}
+}
+/* Medium devices (tablets, < 992px) */
+@media (max-width: 991.98px) {
+	.logoHeader .sideMenu .siteLogo {
+		text-align: left;
+	}
+	.siteNav {
+		display: flex;
+		justify-content: center;
+	}
+	.logoHeader > div {
+		border-bottom: 10px solid #3da84f;
+	}
+	.mainSlider .item .itemHolder .itemText {
+		padding: 0 15px;
+	}
+	.mainSlider .item .itemHolder .itemText h2 {
+		font-size: 25px;
+		line-height: 35px;
+	}
+	.about {
+		margin-top: 0;
+		padding-top: 30px;
+	}
+	.aboutItem {
+		max-width: 255px;
+		padding-top: 85%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.saying .item {
+		padding: 30px;
+	}
+	.about .container {
+		padding-bottom: 30px;
+	}
+	.footerLinks,
+	.footerContact {
+		padding-right: 0;
+	}
+	.footerAbout .text {
+		max-width: 100%;
+	}
+	.welcomeMSG {
+		height: auto;
+	}
+	.blockHolder .blockContent {
+		padding-right: 40px;
+		padding-bottom: 55px;
+	}
+	.newsHolder .postItem .postIMG {
+		padding-top: 100%!important;
+	}
+	.relatesArticles > div > div:last-of-type > .relatedItem {
+		margin-bottom: 0;
+	}
+	.relatesArticles .relatedItem {
+		max-width: 510px;
+		margin: 0 auto 30px;
+	}
+}
+/* Small devices (landscape phones, < 768px) */
+@media (max-width: 767.98px) {
+	.topHeader .userLinks {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	.headerSearch .searchHolder .searchText {
+		position: static;
+		padding: 15px 55px 15px 15px;
+	}
+	.userLinks {
+		text-align: center;
+	}
+	.addSec {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	.aboutItem {
+		padding-top: 280.5px;
+	}
+	.mainSlider .item .itemHolder .itemText .moreLink {
+		padding: 15px 30px;
+	}
+	.news .newsTitle h2 {
+		font-size: 20px;
+	}
+	.news .newsTitle .viewAll {
+		top: 140%;
+	}
+	.saying .item {
+		padding: 15px;
+	}
+	.saying .item p {
+		font-size: 16px;
+	}
+	.mainSlider .owl-carousel .owl-dots {
+		bottom: 15px;
+		justify-content: flex-end;
+		padding: 0 15px;
+	}
+	.news .owl-carousel .owl-nav {
+		top: -47px;
+	}
+	.archiveHolder .filterOptions {
+		position: static;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	.archiveHolder .filterOptions .filterOptionTitle {
+		display: block;
+		margin-bottom: 15px;
+	}
+}
+/* Extra small devices (< 576px) */
+@media (max-width: 575.98px) {
+	.siteNav .navItem a {
+		padding: 20px 8px;
+	}
+	.mainSlider .item .itemHolder {
+		padding-top: 68%;
+	}
+	.mainSlider .item .itemHolder .itemText h2 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.mainSlider .item .itemHolder .itemText p {
+		display: none;
+	}
+	.footerAbout {
+		display: block;
+	}
+	.footerAbout .footerLogo img {
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 15px;
+		display: block;
+	}
+	.archive .nav-tabs .nav-item.show .nav-link,
+	.archive .nav-tabs .nav-link.active {
+		padding: 10px;
+	}
+	.archive .nav-tabs .nav-link {
+		padding: 10px 3px;
+	}
+}
+/* Small devices (landscape phones) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+/* Medium devices (tablets, > 768px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.topHeader .addSec .langSwitch .langSelect {
+		min-width: 75px;
+		margin-left: 5px;
+	}
+	.mainSlider .owl-carousel .owl-dots {
+		bottom: 5%;
+	}
+	.news .newsTitle .viewAll {
+		top: 45px;
+	}
+	.news .owl-carousel .owl-nav {
+		top: -53px;
+	}
+}
+/*  (desktops & large desktops, > 992px) */
+@media (min-width: 992px) {
+	.bottomHeader {
+		border-bottom: 10px solid #3da84f;
+	}
+	.sideMenu:after {
+		position: absolute;
+		bottom: -10px;
+		height: 10px;
+		background: #fff;
+		content: '';
+		width: 0;
+		left: 100%;
+		transition: all 0.3s;
+	}
+	.sideMenu.active:after {
+		width: 150%;
+	}
+}
+/* Large devices (desktops, > 992px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.mainSlider .owl-carousel .owl-dots {
+		bottom: 14%;
+	}
+	.aboutItem a {
+		font-size: 20px;
+	}
+	.archive .nav-tabs .nav-item.show .nav-link,
+	.archive .nav-tabs .nav-link.active {
+		padding: 10px 20px;
+	}
+	.archive .nav-tabs .nav-link {
+		padding: 10px 5px;
+	}
+}
+
+/* Extra large devices (large desktops > 1200px) */
+@media (min-width: 1200px) {
+	.siteNav .navItem .popTitle {
+		display: none!important;
+	}
+	.mainSlider .owl-carousel .owl-dots {
+		bottom: 20%;
+	}
+}
